@@ -18,6 +18,7 @@ GainesvilleBot = ChatBot(name = 'GainesvilleBot',
 corpus_trainer = ChatterBotCorpusTrainer(GainesvilleBot)
 corpus_trainer.train("chatterbot.corpus.english")
 corpus_trainer.train("chatterbot.corpus.english.greetings")
+corpus_trainer.train("chatterbot.corpus.english.gainesville")
 corpus_trainer.train("chatterbot.corpus.english.conversations")
 
 #use by calling get_response
